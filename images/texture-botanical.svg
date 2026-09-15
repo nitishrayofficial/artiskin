@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 200" fill="none">
+  <!-- Very subtle botanical line elements, extremely low opacity, not competing with text -->
+
+  <!-- Left cluster -->
+  <path d="M60 180 C60 180 90 130 130 122 C130 122 106 158 60 180Z" fill="#1C1612" opacity="0.06"/>
+  <path d="M38 188 C38 188 76 144 114 146 C114 146 84 168 38 188Z" fill="#1C1612" opacity="0.04"/>
+  <path d="M78 190 C78 190 104 155 138 158 C138 158 116 176 78 190Z" fill="#1C1612" opacity="0.05"/>
+  <circle cx="140" cy="120" r="2.5" fill="#1C1612" opacity="0.06"/>
+  <circle cx="155" cy="132" r="1.8" fill="#1C1612" opacity="0.05"/>
+  <circle cx="148" cy="142" r="1.5" fill="#1C1612" opacity="0.04"/>
+
+  <!-- Centre-left cluster -->
+  <path d="M390 20 C390 20 420 58 414 96 C414 96 396 64 390 20Z" fill="#1C1612" opacity="0.05"/>
+  <path d="M374 16 C374 16 408 52 406 88 C406 88 386 56 374 16Z" fill="#1C1612" opacity="0.04"/>
+  <circle cx="416" cy="102" r="2" fill="#1C1612" opacity="0.05"/>
+  <circle cx="406" cy="110" r="1.5" fill="#1C1612" opacity="0.04"/>
+
+  <!-- Centre cluster -->
+  <path d="M665 160 C665 160 700 118 740 114 C740 114 714 148 665 160Z" fill="#1C1612" opacity="0.06"/>
+  <path d="M688 172 C688 172 718 136 755 138 C755 138 728 158 688 172Z" fill="#1C1612" opacity="0.04"/>
+  <path d="M680 185 C680 185 706 154 738 158 C738 158 715 172 680 185Z" fill="#1C1612" opacity="0.05"/>
+  <circle cx="748" cy="112" r="2.2" fill="#1C1612" opacity="0.05"/>
+  <circle cx="758" cy="124" r="1.6" fill="#1C1612" opacity="0.04"/>
+
+  <!-- Centre-right cluster -->
+  <path d="M1010 30 C1010 30 1038 72 1030 108 C1030 108 1014 74 1010 30Z" fill="#1C1612" opacity="0.05"/>
+  <path d="M994 26 C994 26 1026 66 1020 100 C1020 100 1002 68 994 26Z" fill="#1C1612" opacity="0.04"/>
+  <circle cx="1032" cy="114" r="2" fill="#1C1612" opacity="0.05"/>
+
+  <!-- Right cluster -->
+  <path d="M1300 172 C1300 172 1330 128 1366 122 C1366 122 1344 156 1300 172Z" fill="#1C1612" opacity="0.06"/>
+  <path d="M1280 184 C1280 184 1316 144 1352 148 C1352 148 1324 166 1280 184Z" fill="#1C1612" opacity="0.04"/>
+  <path d="M1318 188 C1318 188 1344 156 1376 160 C1376 160 1354 176 1318 188Z" fill="#1C1612" opacity="0.05"/>
+  <circle cx="1370" cy="118" r="2.5" fill="#1C1612" opacity="0.06"/>
+  <circle cx="1382" cy="130" r="1.8" fill="#1C1612" opacity="0.04"/>
+
+  <!-- Scattered small dots across the strip -->
+  <circle cx="220" cy="80" r="1.5" fill="#1C1612" opacity="0.04"/>
+  <circle cx="480" cy="150" r="1.8" fill="#1C1612" opacity="0.04"/>
+  <circle cx="560" cy="40" r="1.5" fill="#1C1612" opacity="0.03"/>
+  <circle cx="850" cy="170" r="1.5" fill="#1C1612" opacity="0.04"/>
+  <circle cx="920" cy="50" r="1.8" fill="#1C1612" opacity="0.03"/>
+  <circle cx="1150" cy="90" r="1.5" fill="#1C1612" opacity="0.04"/>
+  <circle cx="1230" cy="40" r="1.8" fill="#1C1612" opacity="0.03"/>
+</svg>

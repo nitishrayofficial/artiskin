@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none" role="img" aria-label="ArtiSkin by Jeena logo">
+  <g transform="translate(0, 8)">
+    <circle cx="32" cy="32" r="28" stroke="#C4A88A" stroke-width="2" fill="none"/>
+    <ellipse cx="32" cy="32" rx="14" ry="10" fill="none" stroke="#C4A88A" stroke-width="1.4" opacity="0.6"/>
+    <ellipse cx="32" cy="32" rx="7" ry="4.5" fill="#C4A88A" opacity="0.25"/>
+    <circle cx="32" cy="32" r="2.5" fill="#C4A88A"/>
+    <line x1="53.5" y1="53.5" x2="62" y2="62" stroke="#C4A88A" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text
+    x="80"
+    y="44"
+    font-family="'Cormorant Garamond', Georgia, serif"
+    font-size="36"
+    font-weight="300"
+    letter-spacing="-0.5"
+    fill="#FAF7F2"
+  >Arti<tspan fill="#C4A88A">Skin</tspan></text>
+  <text
+    x="81"
+    y="60"
+    font-family="'Outfit', sans-serif"
+    font-size="11"
+    font-weight="500"
+    letter-spacing="3"
+    fill="rgba(255,255,255,0.45)"
+  >BY JEENA</text>
+</svg>
