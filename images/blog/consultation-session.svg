@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#FAF7F2"/>
+
+  <!-- Subtle centre circle (the session space) -->
+  <circle cx="400" cy="220" r="130" stroke="#C4A88A" stroke-width="0.8" opacity="0.25" stroke-dasharray="6 5"/>
+
+  <!-- LEFT: Client face -->
+  <!-- Head oval -->
+  <ellipse cx="230" cy="175" rx="58" ry="72" stroke="#7A5C44" stroke-width="2"/>
+  <!-- neck -->
+  <line x1="218" y1="245" x2="218" y2="275" stroke="#7A5C44" stroke-width="2" stroke-linecap="round"/>
+  <line x1="242" y1="245" x2="242" y2="275" stroke="#7A5C44" stroke-width="2" stroke-linecap="round"/>
+  <!-- eyes - gentle closed/relaxed -->
+  <path d="M208 162 C212 158 220 158 224 162" stroke="#7A5C44" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+  <path d="M236 162 C240 158 248 158 252 162" stroke="#7A5C44" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+  <!-- soft smile -->
+  <path d="M214 195 Q230 202 246 195" stroke="#7A5C44" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+  <!-- nose hint -->
+  <path d="M230 168 L226 183 Q230 186 234 183 L230 168" stroke="#7A5C44" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- small UV zone dots on client face -->
+  <circle cx="216" cy="148" r="3" fill="#B85C38" opacity="0.3"/>
+  <circle cx="244" cy="148" r="3" fill="#B85C38" opacity="0.3"/>
+  <circle cx="230" cy="118" r="3.5" fill="#B85C38" opacity="0.25"/>
+
+  <!-- RIGHT: Consultant's hand holding UV device -->
+  <!-- Arm suggestion -->
+  <path d="M570 380 C580 340 570 300 560 268" stroke="#7A5C44" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <!-- hand / wrist curve -->
+  <path d="M558 268 C552 252 546 248 540 244" stroke="#7A5C44" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- UV device being held -->
+  <rect x="504" y="202" width="18" height="72" rx="9" stroke="#B85C38" stroke-width="1.8" transform="rotate(-20 513 238)"/>
+  <!-- device lens circle -->
+  <circle cx="496" cy="204" r="8" stroke="#B85C38" stroke-width="1.6"/>
+  <!-- light rays from device toward client -->
+  <line x1="488" y1="200" x2="438" y2="192" stroke="#B85C38" stroke-width="1.1" stroke-linecap="round" opacity="0.5" stroke-dasharray="5 4"/>
+  <line x1="488" y1="206" x2="438" y2="200" stroke="#B85C38" stroke-width="0.9" stroke-linecap="round" opacity="0.32" stroke-dasharray="5 4"/>
+  <line x1="490" y1="196" x2="440" y2="186" stroke="#B85C38" stroke-width="0.9" stroke-linecap="round" opacity="0.32" stroke-dasharray="5 4"/>
+
+  <!-- Clipboard / notes (centre-right area) -->
+  <rect x="430" y="280" width="110" height="130" rx="5" stroke="#7A5C44" stroke-width="1.5"/>
+  <!-- clip -->
+  <rect x="462" y="272" width="46" height="16" rx="4" stroke="#7A5C44" stroke-width="1.3"/>
+  <!-- note lines -->
+  <line x1="446" y1="316" x2="524" y2="316" stroke="#C4A88A" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="446" y1="328" x2="524" y2="328" stroke="#C4A88A" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="446" y1="340" x2="524" y2="340" stroke="#C4A88A" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="446" y1="352" x2="500" y2="352" stroke="#C4A88A" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- checkmarks on notes -->
+  <path d="M438 315 L442 319 L450 310" stroke="#B85C38" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M438 327 L442 331 L450 322" stroke="#B85C38" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Connection dots between client and action zone -->
+  <circle cx="310" cy="218" r="3" fill="#C4A88A" opacity="0.45"/>
+  <circle cx="340" cy="218" r="3" fill="#C4A88A" opacity="0.45"/>
+  <circle cx="370" cy="218" r="3" fill="#C4A88A" opacity="0.45"/>
+
+  <!-- Botanical — bottom left -->
+  <path d="M55 442 C55 442 88 402 128 400 C128 400 98 424 55 442Z" fill="#7A5C44" opacity="0.12"/>
+  <path d="M35 450 C35 450 75 414 112 416 C112 416 80 436 35 450Z" fill="#C4A88A" opacity="0.18"/>
+
+  <!-- Botanical — top right -->
+  <path d="M745 18 C745 18 710 58 668 62 C668 62 700 34 745 18Z" fill="#7A5C44" opacity="0.12"/>
+  <path d="M765 8 C765 8 726 46 684 50 C684 50 716 24 765 8Z" fill="#C4A88A" opacity="0.16"/>
+</svg>

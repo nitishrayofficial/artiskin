@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#FAF7F2"/>
+
+  <!-- UV scan rings radiating from face centre -->
+  <ellipse cx="400" cy="210" rx="280" ry="220" stroke="#B85C38" stroke-width="0.6" opacity="0.10"/>
+  <ellipse cx="400" cy="210" rx="220" ry="175" stroke="#B85C38" stroke-width="0.8" opacity="0.14"/>
+  <ellipse cx="400" cy="210" rx="162" ry="130" stroke="#B85C38" stroke-width="1" opacity="0.20"/>
+  <ellipse cx="400" cy="210" rx="110" ry="90"  stroke="#B85C38" stroke-width="1.2" opacity="0.27"/>
+
+  <!-- Face outline -->
+  <ellipse cx="400" cy="205" rx="72" ry="92" stroke="#7A5C44" stroke-width="2.2"/>
+
+  <!-- Eyes -->
+  <path d="M372 174 C375 169 382 169 385 174" stroke="#7A5C44" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+  <path d="M415 174 C418 169 425 169 428 174" stroke="#7A5C44" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+
+  <!-- Nose -->
+  <path d="M400 185 L395 205 Q400 209 405 205 L400 185" stroke="#7A5C44" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Lips -->
+  <path d="M385 228 Q393 234 400 233 Q407 234 415 228" stroke="#7A5C44" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+
+  <!-- UV device wand (bottom-right) -->
+  <rect x="558" y="298" width="16" height="66" rx="8" stroke="#B85C38" stroke-width="1.8" transform="rotate(-35 566 331)"/>
+  <circle cx="534" cy="282" r="6" stroke="#B85C38" stroke-width="1.6"/>
+  <!-- light rays from device toward face -->
+  <line x1="529" y1="277" x2="468" y2="238" stroke="#B85C38" stroke-width="1" stroke-linecap="round" opacity="0.45" stroke-dasharray="5 4"/>
+  <line x1="535" y1="277" x2="472" y2="244" stroke="#B85C38" stroke-width="0.8" stroke-linecap="round" opacity="0.28" stroke-dasharray="5 4"/>
+  <line x1="523" y1="280" x2="460" y2="244" stroke="#B85C38" stroke-width="0.8" stroke-linecap="round" opacity="0.28" stroke-dasharray="5 4"/>
+
+  <!-- zone markers -->
+  <circle cx="400" cy="142" r="4"  fill="#B85C38" opacity="0.38"/>
+  <circle cx="336" cy="210" r="3.5" fill="#B85C38" opacity="0.32"/>
+  <circle cx="464" cy="210" r="3.5" fill="#B85C38" opacity="0.32"/>
+
+  <!-- Botanical leaves — bottom left -->
+  <path d="M72 428 C72 428 105 385 148 380 C148 380 118 412 72 428Z" fill="#7A5C44" opacity="0.12"/>
+  <path d="M48 440 C48 440 88 400 130 398 C130 398 98 422 48 440Z" fill="#C4A88A" opacity="0.18"/>
+  <path d="M90 442 C90 442 120 412 155 416 C155 416 128 436 90 442Z" fill="#7A5C44" opacity="0.10"/>
+
+  <!-- Botanical leaves — top right -->
+  <path d="M728 22 C728 22 695 65 652 70 C652 70 682 38 728 22Z" fill="#7A5C44" opacity="0.12"/>
+  <path d="M752 10 C752 10 712 50 668 52 C668 52 702 28 752 10Z" fill="#C4A88A" opacity="0.16"/>
+  <path d="M710 18 C710 18 680 48 648 46 C648 46 672 24 710 18Z" fill="#7A5C44" opacity="0.08"/>
+</svg>

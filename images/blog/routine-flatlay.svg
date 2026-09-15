@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#FAF7F2"/>
+
+  <!-- shelf / surface line -->
+  <line x1="120" y1="360" x2="680" y2="360" stroke="#C4A88A" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- LEFT BOTTLE — tall serum dropper -->
+  <rect x="238" y="175" width="56" height="185" rx="12" stroke="#7A5C44" stroke-width="1.8"/>
+  <!-- dropper top -->
+  <rect x="254" y="148" width="24" height="32" rx="10" stroke="#7A5C44" stroke-width="1.5"/>
+  <!-- dropper bulb -->
+  <ellipse cx="266" cy="145" rx="14" ry="10" stroke="#7A5C44" stroke-width="1.5" fill="none"/>
+  <!-- label area on bottle -->
+  <rect x="246" y="230" width="40" height="60" rx="3" stroke="#C4A88A" stroke-width="1" opacity="0.5"/>
+  <!-- small leaf motif on label -->
+  <path d="M266 250 C266 250 258 242 262 234 C265 228 273 231 272 238 C271 244 266 250 266 250Z" stroke="#7A5C44" stroke-width="1" fill="none" opacity="0.5"/>
+
+  <!-- CENTRE BOTTLE — medium pump bottle (hero/highlighted) -->
+  <rect x="354" y="148" width="92" height="212" rx="14" stroke="#B85C38" stroke-width="2.2"/>
+  <!-- pump top -->
+  <rect x="387" y="120" width="26" height="34" rx="6" stroke="#B85C38" stroke-width="1.8"/>
+  <!-- pump head horizontal -->
+  <rect x="370" y="116" width="60" height="10" rx="5" stroke="#B85C38" stroke-width="1.5"/>
+  <!-- label area -->
+  <rect x="365" y="210" width="70" height="90" rx="4" stroke="#B85C38" stroke-width="1.2" opacity="0.4"/>
+  <!-- small leaf on centre label -->
+  <path d="M400 250 C400 250 390 238 394 228 C398 220 410 224 408 233 C406 241 400 250 400 250Z" stroke="#B85C38" stroke-width="1.3" fill="none" opacity="0.6"/>
+  <!-- magnifying glass above centre bottle (understand your products) -->
+  <circle cx="400" cy="90" r="20" stroke="#7A5C44" stroke-width="1.6"/>
+  <line x1="415" y1="105" x2="426" y2="116" stroke="#7A5C44" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- small tick inside lens -->
+  <path d="M392 90 L398 97 L410 82" stroke="#7A5C44" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- RIGHT BOTTLE — small round moisturiser pot -->
+  <rect x="514" y="246" width="72" height="114" rx="12" stroke="#7A5C44" stroke-width="1.8"/>
+  <!-- lid -->
+  <rect x="510" y="234" width="80" height="20" rx="8" stroke="#7A5C44" stroke-width="1.5"/>
+  <!-- label line -->
+  <line x1="526" y1="290" x2="574" y2="290" stroke="#C4A88A" stroke-width="1" opacity="0.5"/>
+  <line x1="526" y1="302" x2="566" y2="302" stroke="#C4A88A" stroke-width="1" opacity="0.5"/>
+
+  <!-- Botanical sprigs between bottles -->
+  <!-- Left-centre sprig -->
+  <path d="M320 345 C320 345 318 310 330 290 C330 290 328 320 320 345Z" fill="#7A5C44" opacity="0.18"/>
+  <path d="M322 340 C322 340 312 308 326 280 C326 280 320 315 322 340Z" fill="#C4A88A" opacity="0.22"/>
+  <path d="M328 340 C328 340 340 310 336 286 C336 286 332 318 328 340Z" fill="#7A5C44" opacity="0.14"/>
+  <!-- Right-centre sprig -->
+  <path d="M490 350 C490 350 488 314 500 294 C500 294 498 324 490 350Z" fill="#7A5C44" opacity="0.18"/>
+  <path d="M494 348 C494 348 484 316 498 288 C498 288 492 322 494 348Z" fill="#C4A88A" opacity="0.22"/>
+
+  <!-- Corner botanical — bottom left -->
+  <path d="M58 440 C58 440 90 400 128 398 C128 398 100 422 58 440Z" fill="#7A5C44" opacity="0.11"/>
+  <path d="M38 448 C38 448 76 412 112 414 C112 414 82 434 38 448Z" fill="#C4A88A" opacity="0.16"/>
+
+  <!-- Corner botanical — bottom right -->
+  <path d="M742 440 C742 440 710 400 672 398 C672 398 700 422 742 440Z" fill="#7A5C44" opacity="0.11"/>
+  <path d="M762 448 C762 448 724 412 688 414 C688 414 718 434 762 448Z" fill="#C4A88A" opacity="0.16"/>
+</svg>
