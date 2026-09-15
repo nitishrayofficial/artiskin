@@ -1,0 +1,109 @@
+/* ============================================
+   ARTISKIN BY JEENA — BLOG
+   ============================================ */
+
+/* Blog listing page */
+.blog-page {
+  background: var(--clr-bg);
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-8);
+}
+
+@media (min-width: 640px) {
+  .blog-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .blog-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Featured post (first) */
+.blog-grid .blog-card:first-child {
+  grid-column: 1 / -1;
+  flex-direction: row;
+}
+
+@media (max-width: 639px) {
+  .blog-grid .blog-card:first-child {
+    flex-direction: column;
+  }
+}
+
+.blog-grid .blog-card:first-child .blog-card__image {
+  flex: 0 0 50%;
+  aspect-ratio: auto;
+}
+
+.blog-grid .blog-card:first-child .blog-card__title {
+  font-size: clamp(var(--fs-lg), 2.5vw, var(--fs-xl));
+}
+
+/* Post page */
+.post-content {
+  padding-block: var(--sp-16);
+}
+
+.post-content .prose {
+  padding-inline: var(--gutter);
+}
+
+/* Post navigation */
+.post-nav {
+  padding-block: var(--sp-12);
+  border-top: 1px solid var(--clr-bg-deep);
+  margin-top: var(--sp-16);
+}
+
+.post-nav__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--sp-6);
+}
+
+.post-nav__link {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  text-decoration: none;
+  max-width: 240px;
+}
+
+.post-nav__link--right {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.post-nav__label {
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-semi);
+  letter-spacing: var(--ls-wide);
+  text-transform: uppercase;
+  color: var(--clr-text-light);
+}
+
+.post-nav__title {
+  font-family: var(--font-display);
+  font-size: var(--fs-md);
+  color: var(--clr-text);
+  line-height: var(--lh-snug);
+  transition: color var(--dur-fast);
+}
+
+.post-nav__link:hover .post-nav__title {
+  color: var(--clr-action);
+}
+
+/* Related posts */
+.related-posts {
+  padding-block: var(--sp-16);
+  background: var(--clr-bg-alt);
+}
