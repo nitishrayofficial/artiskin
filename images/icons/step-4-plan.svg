@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <circle cx="50" cy="50" r="46" stroke="#7A5C44" stroke-width="1.5"/>
+  <!-- clipboard body -->
+  <rect x="26" y="30" width="48" height="54" rx="4" stroke="#7A5C44" stroke-width="1.8"/>
+  <!-- clipboard clip top -->
+  <rect x="38" y="25" width="24" height="10" rx="3" stroke="#7A5C44" stroke-width="1.5"/>
+  <!-- document lines -->
+  <line x1="34" y1="48" x2="66" y2="48" stroke="#C4A88A" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="34" y1="57" x2="66" y2="57" stroke="#C4A88A" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="34" y1="66" x2="52" y2="66" stroke="#C4A88A" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- checkmark (terracotta) -->
+  <path d="M55 61 L61 69 L73 55" stroke="#B85C38" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- tiny leaf top-right corner of doc -->
+  <path d="M62 35 C62 35 69 30 73 33 C73 33 68 36 62 35Z" fill="#7A5C44" opacity="0.35"/>
+  <path d="M65 36 C65 36 70 33 73 36 C73 36 69 37 65 36Z" fill="#C4A88A" opacity="0.4"/>
+</svg>

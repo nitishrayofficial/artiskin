@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <circle cx="50" cy="50" r="46" stroke="#7A5C44" stroke-width="1.5"/>
+  <!-- magnifying glass outer ring -->
+  <circle cx="42" cy="42" r="21" stroke="#7A5C44" stroke-width="1.8"/>
+  <!-- magnifying glass handle -->
+  <line x1="57.5" y1="57.5" x2="73" y2="73" stroke="#7A5C44" stroke-width="3.2" stroke-linecap="round"/>
+  <!-- face outline inside lens -->
+  <ellipse cx="42" cy="42" rx="11" ry="14" stroke="#B85C38" stroke-width="1.4"/>
+  <!-- eyes -->
+  <path d="M37 37 C38 35 40 35 41 37" stroke="#7A5C44" stroke-width="1.3" stroke-linecap="round" fill="none"/>
+  <path d="M43 37 C44 35 46 35 47 37" stroke="#7A5C44" stroke-width="1.3" stroke-linecap="round" fill="none"/>
+  <!-- gentle mouth -->
+  <path d="M38 49 Q42 52 46 49" stroke="#7A5C44" stroke-width="1.1" stroke-linecap="round" fill="none"/>
+  <!-- UV glow / scan ring -->
+  <circle cx="42" cy="42" r="16" stroke="#B85C38" stroke-width="0.8" opacity="0.28" stroke-dasharray="2.5 3"/>
+</svg>

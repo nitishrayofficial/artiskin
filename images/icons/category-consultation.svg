@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <circle cx="50" cy="50" r="46" stroke="#7A5C44" stroke-width="1.5"/>
+  <!-- face oval -->
+  <ellipse cx="50" cy="50" rx="18" ry="22" stroke="#7A5C44" stroke-width="1.8"/>
+  <!-- eyes -->
+  <path d="M42 43 C43.5 41 46 41 47.5 43" stroke="#7A5C44" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <path d="M52.5 43 C54 41 56.5 41 58 43" stroke="#7A5C44" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <!-- nose -->
+  <path d="M50 47 L48 55 Q50 57 52 55 L50 47" stroke="#7A5C44" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- lips -->
+  <path d="M44 62 Q50 65.5 56 62" stroke="#7A5C44" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+  <!-- cardinal rays -->
+  <line x1="50" y1="21" x2="50" y2="13" stroke="#B85C38" stroke-width="1.6" stroke-linecap="round"/>
+  <line x1="50" y1="79" x2="50" y2="87" stroke="#B85C38" stroke-width="1.6" stroke-linecap="round"/>
+  <line x1="21" y1="50" x2="13" y2="50" stroke="#B85C38" stroke-width="1.6" stroke-linecap="round"/>
+  <line x1="79" y1="50" x2="87" y2="50" stroke="#B85C38" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- diagonal rays -->
+  <line x1="28" y1="28" x2="22" y2="22" stroke="#C4A88A" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="72" y1="28" x2="78" y2="22" stroke="#C4A88A" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="28" y1="72" x2="22" y2="78" stroke="#C4A88A" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="72" y1="72" x2="78" y2="78" stroke="#C4A88A" stroke-width="1.2" stroke-linecap="round"/>
+</svg>

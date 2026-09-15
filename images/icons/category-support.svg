@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <circle cx="50" cy="50" r="46" stroke="#7A5C44" stroke-width="1.5"/>
+  <!-- calendar body -->
+  <rect x="22" y="30" width="56" height="46" rx="4" stroke="#7A5C44" stroke-width="1.8"/>
+  <!-- header band -->
+  <line x1="22" y1="43" x2="78" y2="43" stroke="#7A5C44" stroke-width="1.5"/>
+  <!-- binding tabs -->
+  <line x1="35" y1="25" x2="35" y2="35" stroke="#7A5C44" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="65" y1="25" x2="65" y2="35" stroke="#7A5C44" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- grid row 1 -->
+  <circle cx="34" cy="54" r="2.3" fill="#C4A88A" opacity="0.75"/>
+  <circle cx="50" cy="54" r="2.3" fill="#C4A88A" opacity="0.75"/>
+  <circle cx="66" cy="54" r="2.3" fill="#C4A88A" opacity="0.75"/>
+  <!-- grid row 2 -->
+  <circle cx="34" cy="66" r="2.3" fill="#C4A88A" opacity="0.75"/>
+  <circle cx="66" cy="66" r="2.3" fill="#C4A88A" opacity="0.75"/>
+  <!-- heart centre row 2 -->
+  <path d="M50 70.5 C50 70.5 43 64 43 59 C43 56.2 45 54 47.5 54 C49 54 50 55 50 55.5 C50 55 51 54 52.5 54 C55 54 57 56.2 57 59 C57 64 50 70.5 50 70.5Z" fill="#B85C38"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <circle cx="50" cy="50" r="46" stroke="#7A5C44" stroke-width="1.5"/>
+  <!-- lightbulb glass globe -->
+  <path d="M50 24 C39 24 30 33 30 44 C30 52 34.5 58.5 42 62.5 L42 69 L58 69 L58 62.5 C65.5 58.5 70 52 70 44 C70 33 61 24 50 24Z" stroke="#7A5C44" stroke-width="1.8" fill="none"/>
+  <!-- base segments -->
+  <line x1="41" y1="69" x2="41" y2="75" stroke="#7A5C44" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="59" y1="69" x2="59" y2="75" stroke="#7A5C44" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="38" y1="75" x2="62" y2="75" stroke="#7A5C44" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="41" y1="79" x2="59" y2="79" stroke="#7A5C44" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- horizontal line across globe bottom -->
+  <path d="M38 64 Q50 67 62 64" stroke="#7A5C44" stroke-width="1" opacity="0.3" fill="none"/>
+  <!-- leaf inside bulb -->
+  <path d="M50 59 C50 59 42 50 45 38 C47 30 57 32 55 42 C54 50 50 59 50 59Z" stroke="#B85C38" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  <!-- leaf midrib -->
+  <path d="M50 59 C48 50 46 41 46 38" stroke="#B85C38" stroke-width="0.9" stroke-linecap="round" opacity="0.5"/>
+  <!-- small vein -->
+  <path d="M48 50 L43 46" stroke="#B85C38" stroke-width="0.8" stroke-linecap="round" opacity="0.45"/>
+</svg>
